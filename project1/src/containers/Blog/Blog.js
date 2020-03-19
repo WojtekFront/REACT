@@ -43,6 +43,7 @@ class Blog extends Component {
             return <Post 
             key={post.id} 
             title={post.title} 
+            body={post.body} 
             author={post.author}
             clicked={()=>this.postSelectedHandler(post.id)}/>
         }); }
